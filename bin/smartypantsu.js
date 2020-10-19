@@ -19,6 +19,6 @@ process.stdin.on('readable', () => {
 });
 
 process.stdin.on('end', () => {
-  process.stdout.write(smartypants(text, '1'));
+  process.stdout.write(smartypants(text, '2'));
 });
 
